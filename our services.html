@@ -1,0 +1,200 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+            body{
+    background-size: 100% 100%;
+    background-image:url(ndovu.jpg)
+     
+}
+.card {
+  width: 400px; /* Adjust as needed */
+  height: 600px; /* Adjust as needed */
+  background-color: #f7f9f9;
+  background-image: url(chui.jpg);
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px; /* Adjust spacing as needed */
+}
+.card img {
+  width: 100% 100%;
+  height: 150px; /* Adjust as needed */
+  object-fit: cover; /* Adjust image fitting as needed */
+}
+.card h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+  font-size: 14.5px;
+  line-height: 1.5;
+}
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+.modal{
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #1c81fd;
+  color: rgb(55, 53, 53);
+}
+
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    border-radius: 10px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  width: 50%;  
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  background-image: url(chui.jpg);
+  padding: 30px;
+}
+</style>
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="mypage.html">Home</a>
+        <a href="our services.html">Our Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="#about">About</a>
+    </div><br><br>
+    <div class="card-container">
+        <div class="card">
+            <h4>Boat Excursion</h4>
+            <p>
+                Experience boat excursions in our parks that are endowed with rich species of both marine and terrestrial species. Saadani, Rubondo, Mahale, Gombe, Saanane and Burigi-Chato parks are ready for this lifetime experience.In Saadani the activity is done in Wami river while in Rubondo and Saanane the activity is done in Lake Victoria- the largest lake in Africa. In Mahale and Gombe national parks which are Chimpanzees' paradise boat excursion is done in the blue waters of Lake Tanganyika the second deepest lake in the World. Your travel agent is vested with the knowledge on how to organize this trip, however you may contact our respective park for prior arrangements before you visit.
+            </p>
+        </div>
+            
+        <div class="card">
+            <h4>Adventure and recreation</h4>
+            <p>
+                Every traveler yearns to discover new things and experience adventure. <br> Kenya has a diverse array of adventurous pursuits and recreational opportunities suitable for different people and personalities.From a mountainous hike on Kenya’s tallest peak, Mount Kenya to a breathtaking safari across the Maasai Mara savannah there is something to suit every mood. Activities here include game drives, hot air balloon safaris, zip lining adventures, camping, and walking safarisBesides engaging in adventurous tours inland, the country’s spectacular beaches leave water sport enthusiasts spoilt for choice.
+            </p>
+        </div>
+
+        <div class="card">
+            <h4>Accommodation</h4>
+            <p>
+                Kenya’s hospitality sector has kept up with world standards and offers excellent accommodations to visitors from all walks of life.
+                If you are visiting the Masai Mara on a budget for example, there are great 3-star budget camps and lodges designed to offer pocket friendly yet world class accommodations.
+                Examples of these include Keekorok lodge, Mara leisure camp, and Talek Bush Camp.
+                On the other hand, those who wish to splurge a little also have a myriad of options including Sir. Richard Branson’s amazing Mahali Mzuri camp, the Fairmont Mara, the Mara Serena safari lodge, among others.
+                This wide spectrum of hotels and lodges for every budgetary class is evident throughout the country, meaning there will always be an option suitable for every traveler, including campers and backpackers.
+            </p>
+        </div>
+                
+        <div class="card">
+            <h4>Transportation</h4>
+            <p>
+                As mentioned earlier, Kenya has a robust transport and telecommunications network. This includes a good road network, 4G internet connectivity, and widespread air travel across different regions of the country.
+                In addition, the country’s travel agencies are always at hand to provide visitors with dependable transport in the form of comfortable customized safari vans, Jeeps, and wagons.
+                The most used vehicles for a safari in Kenya are the 4x4 Toyota land cruiser with an open roof for game viewing. Travelers on a budget can opt for the budget friendly safari van which is mostly Toyota Hiace with an open roof for game viewing. For self-drive tours, 4x4 vehicles such as the Toyota Land cruiser Prado, the Toyota Harrier, Subaru Forester are ideal.
+                These may be accessed as part of a guided tour package or independently hired by visitors wishing to undertake a self-guided safari.
+            </p>
+        </div>
+            
+        </div>
+    </div>
+    <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="Your email">
+      
+          <label for="Safari Packages">Safari Packages</label>
+          <select id="Safari Packages" name="Safari Packages">
+            <option value="Kenya">Kenya</option>
+            <option value="Tanzania">Tanzania</option>
+            <option value="Uganda">Uganda</option>
+          </select>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+</body>
+</html>

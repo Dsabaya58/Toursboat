@@ -1,0 +1,210 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+                    body{
+    background-size: 100% 100%;
+    background-image:url(punda.jpg)
+     
+}
+
+.modal{
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #1c81fd;
+  color: rgb(55, 53, 53);
+}
+
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    border-radius: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+p1 {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.row {
+  margin: 8px -16px;
+  
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+  
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+    </style>
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="mypage.html">Home</a>
+        <a href="our services.html">Our Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="#about">About</a>
+    </div><br><br>
+
+    <!-- MAIN (Center website) -->
+<div class="main">
+
+    <h1>Toursboat</h1>
+    <hr>
+    
+    <h2>Photo Gallery</h2>
+    <p1>
+        Exploring the stunning landscapes and diverse wildlife from all around the East Africa and get to experience this unique destinations.
+    </p1>
+    
+    <!-- My Portfolio Gallery Grid -->
+    <div class="row">
+      <div class="column">
+        <div class="content">
+          <img src="leopard.jpg" alt="Leopard" style="width:100%">
+          <h3>Masai Mara Toursafari</h3>
+          <p>
+            Home to The Big Five, Mighty Masai Warriors And The Eight Wonder Of The World. This destination is a must see for every traveler. Prepare to be in awe by the stunning views of the African plains, come face to face with the king of the jungle and learn more about the Maasai Mara. Part of the fun of going on safari is planning your safari. We have been there and we know how it feels. As avid travelers we can imagine you have a ton of questions. Very few places on earth are as unspoilt, adventurous and authentic as the Maasai Mara eco-system. Allow us to plan the best 3-Day safari adventure just for you.
+          </p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="content">
+          <img src="sii.jpg" alt="Lions" style="width:100%">
+          <h3>Serengeti National Park</h3>
+          <p>
+            Serengeti National Park is also known as the Land Of Giants because of the majestic elephants that roam freely carrying their tremendous tusks. Located about four hours from the southeast of Tanzania this park is also famed for the sensational view of the majestic snow-capped Mouth Kilimanjaro. Join us on this 3-day; 2-night tour through the park enjoying the sight of the Big Five, as well as a plethora of other wildlife. All this set against the backdrop of Africa's highest peak; a Photographer's paradise with striking sunrises and sunsets. Get the chance to enjoy the Maasai Village and experience authentic culture and traditions.
+          </p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="content">
+          <img src="nature.jpg" alt="Nature" style="width:100%">
+          <h3>Amboseli Safari</h3>
+          <p>
+            Amboseli National Park is also known as the Land Of Giants because of the majestic elephants that roam freely carrying their tremendous tusks. Located about four hours from the southeast of Nairobi-Kenya this park is also famed for the sensational view of the majestic snow-capped Mouth Kilimanjaro. Join us on this 3-day; 2-night tour through the park enjoying the sight of the Big Five, as well as a plethora of other wildlife. All this set against the backdrop of Africa's highest peak; a Photographer's paradise with striking sunrises and sunsets. Get the chance to enjoy the Maasai Village and experience authentic culture and traditions.
+          </p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="content">
+          <img src="punda.jpg" alt="Mountains" style="width:100%">
+          <h3>Tsavo Safari</h3>
+          <p>
+            Tsavo is the only sanctuary in the world that boasts the red elephants, and these majestic animals are the park's greatest attraction. The elephants are actually the same grey colour as every other elephant in the world, however, they just appear brick - red due to constantly dust bathing in the fine red volcanic soil of Tsavo. They dust and wallow to cool off and deter parasites. The Bonfire Adventures tour guides make it possible to spot hundreds of these red jumbos. The elephants take every possible opportunity to roll in the red soil; always ablaze when doing it, giving it their best! As our guides drive you to the water holes, you'll be lucky enough to enjoy a water show. The elephants playfully spray each other competing their grooming ritual.
+          </p>
+        </div>
+      </div>
+    </div><br><br>
+    
+    <div class="content">
+      <img src="pori.jpg" alt="Pori" style="height:400px" style="width:100%">
+      <h3>Mt. Kilimanjaro National Park</h3>
+      <p>
+        The highest mountain in Africa, snow caped and world’s highest free standing volcano. It comprises of two dormant volcanoes  (Kibo 5,895m a.m.s.l and Mawenzi 5,149m a.m.s.l) and one extinct volcano (Shira 3,962m a.m.s.l) respectively. The origin of the word is not well known but it said to be a combination of the Swahili word Kilima meaning “Mountain” and the KiChagga word Njaro, loosely translated as “Whiteness” giving the name “White Mountain”.
+        Its size is 1,712Km2 and was declared as a National Park in 1973, officially opened for tourism in 1977, declared a World Heritage Site by UNESCO in 1987 and Natural Wonder of Africa in 2013. Climbing to the top which is far up into the sky it’s a life time experience that no one can forget.
+      </p>
+    </div>
+    
+    <!-- END MAIN -->
+    </div>
+</body>
+</html>
